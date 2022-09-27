@@ -1,13 +1,13 @@
 # Bankamatik Uygulaması
 from datetime import datetime
 
-MertHesap = {
+CemHesap = {
     'ad': 'Cem Cemil',
     'hesapNo': '1234567',
     'bakiye': 3000,
     'ekhesap': 2000
 }
-NaciyeHesap = {
+AliHesap = {
     'ad': 'Ali Kara',
     'hesapNo': '12345678',
     'bakiye': 2000,
@@ -60,4 +60,4 @@ def paraCek(hesap, miktar):
             print(f"Sayin {hesap['ad']} bizimle calistiginiz icin tesekkurler...")
 
 
-paraCek(MertHesap,3750)
+paraCek(AliHesap,3750)
